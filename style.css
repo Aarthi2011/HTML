@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+#navbar{
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	padding: .5rem 5rem;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+	background-color: white;
+
+}
+.navbar-brand{
+	font-size: 25px;
+	font-weight: 900;
+	color: green;
+}
+ a{
+	color: white;
+	border-bottom: 2px solid transparent;
+	font-size: 40px;
+	font-weight: 400;
+}
+a:hover{
+	color: white;
+	border-bottom: 2px solid green;
+}
+.button_sign{
+	background: green;
+	color: white;
+	font-size: 15px;
+	border-radius: 8px;
+	border: 2px solid green;
+	width: 10%;
+}
+.signin{
+	background-color: green;
+	color: white;
+	border-radius: 8px;
+	border: 2px solid green;
+}
+
+/**home**/
+section{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+#home{
+	background-image: url("images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	flex-direction: column;
+	
+}
+#home h1{
+	font-size: 100px;
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: 0px 2px 0px #fff ;
+}
+#home p{
+	color: white;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.input-group{
+	width: 40%;
+	height: 40px;
+}
+
+/****about***/
+#about{
+	background: linear-gradient(to right,#eb09be,#1c4ded);
+}
+
+a.nav-link {
+    color: black;
+    margin-left: 40px;
+}
+a.nav-link:hover {
+    color: black;
+}
+#about h1{
+	color: white;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+#about p {
+    color: white;
+    font-size: 36px;
+    text-transform: initial;
+}
+img#img {
+    border-radius: 24px;
+    margin-top: 36px;
+    opacity: .9;
+}
+/***products**/
+#product {
+    color: white;
+    font-size: 25px;
+    background: linear-gradient( to right, #38c211,#065270);
+    padding: 33px;
+}
+
+
+
+/***Contact Us***/
+
+.contact {
+    text-align: center;
+    font-family: fangsong;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 46px;
+}
+#name {
+    padding: 13px !important;
+    border: 3px solid cadetblue !important;
+    box-sizing: border-box !important;
+    margin-bottom: 10px !important;
+}
+.email {
+    padding: 13px !important;
+    border: 3px solid cadetblue !important;
+    box-sizing: border-box !important;
+    margin-bottom: 10px !important;
+}
+
+.message {
+    padding: 13px !important;
+    border: 3px solid cadetblue !important;
+    box-sizing: border-box !important;
+    margin-bottom: 10px !important;
+}
+#contact {
+    background: #00ff7e;
+}
+
+section #contact {
+    background-color: #00ff89 !important;
+}
